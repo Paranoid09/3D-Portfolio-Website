@@ -10,19 +10,16 @@ import {
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
   git,
   figma,
-  docker,
+  threejs,
   gemovani,
   synergy,
   umali,
   megadoors,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  pigGame,
+  bankist,
+  chat,
 } from "../assets";
 
 export const navLinks = [
@@ -187,66 +184,62 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Pig Game",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Pig is a simple dice game. Players take turns to roll a single dice as many times as they wish, adding all roll results to a running total, but losing their gained score for the turn if they roll a 1.",
     tags: [
       {
-        name: "react",
+        name: "javascript",
         color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
       },
       {
         name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "html",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: pigGame,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Bankist App",
+    description:
+      "Bankist is a project introduced by Jonas Schmedtmann in order to practice arrays and its methods. Bankist has an option to log in to the account and use different functionalities, almost like in an actual bank!",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "html",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bankist,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Chat App",
+    description:
+      "Fullstack chat application with Authentication and real-time capabilities with Appwrite cloud.                                                                                                                        ",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Appwrite",
+        color: "green-text-gradient",
+      },
+    ],
+    image: chat,
     source_code_link: "https://github.com/",
   },
 ];

@@ -51,7 +51,6 @@ const About = () => {
         I'm a web developer proficient in React, HTML, CSS, and JavaScript. I'm
         passionate about creating user-friendly web solutions that solve
         real-world problems. Let's collaborate to turn your ideas into reality!
-        (testing)
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

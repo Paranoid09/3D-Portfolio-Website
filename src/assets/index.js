@@ -26,9 +26,9 @@ import umali from "./company/umali.png";
 import synergy from "./company/synergy.png";
 import megadoors from "./company/megadoors.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import pigGame from "./pigGame.png";
+import bankist from "./bankist.png";
+import chat from "./chat.png";
 
 export {
   logo,
@@ -56,7 +56,7 @@ export {
   umali,
   synergy,
   megadoors,
-  carrent,
-  jobit,
-  tripguide,
+  pigGame,
+  bankist,
+  chat,
 };
